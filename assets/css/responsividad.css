@@ -1,0 +1,193 @@
+
+@media only screen and (min-width: 1007px) {
+    #pag-nav-1 {
+        position: absolute;
+        left: 15%;
+    }  
+    
+    #pag-nav-2 {
+        position: absolute;
+        left: 30%;
+    }  
+    
+    #pag-nav-3 {
+        position: absolute;
+        left: 60%;
+    } 
+    
+    #pag-nav-4 {
+        position: absolute;
+        left: 74%;
+    } 
+}
+
+@media only screen and (max-width: 1006px) {
+    #pag-nav-1 {
+        position: absolute;
+        left: 20%;
+    }  
+    
+    #pag-nav-2 {
+        position: absolute;
+        left: 35%;
+    }  
+    
+    #pag-nav-3 {
+        position: absolute;
+        left: 50%;
+    } 
+    
+    #pag-nav-4 {
+        position: absolute;
+        left: 65%;
+    } 
+}
+
+@media only screen and (max-width: 990px) {
+    #pag-nav-1 {
+        position: absolute;
+        left: 25%;
+    }  
+    
+    #pag-nav-2 {
+        position: absolute;
+        left: 38%;
+    }  
+    
+    #pag-nav-3 {
+        position: absolute;
+        left: 50%;
+    } 
+    
+    #pag-nav-4 {
+        position: absolute;
+        left: 63%;
+    } 
+}
+
+@media only screen and (max-width: 880px) {
+    #pag-nav-1 {
+        position: absolute;
+        left: 26%;
+    }  
+    
+    #pag-nav-2 {
+        position: absolute;
+        left: 39%;
+    }  
+    
+    #pag-nav-3 {
+        position: absolute;
+        left: 51%;
+    } 
+    
+    #pag-nav-4 {
+        position: absolute;
+        left: 64%;
+    } 
+}
+
+
+@media only screen and (max-width: 770px) {
+    #pag-nav-1 {
+        position: relative;
+        left: auto;
+    }  
+    
+    #pag-nav-2 {
+        position: relative;
+        left: auto;
+
+    }  
+    
+    #pag-nav-3 {
+        position: relative;
+        left: auto;
+        
+
+    } 
+    
+    #pag-nav-4 {
+        position: relative;
+        left: auto;
+    } 
+}
+
+
+@media only screen and (max-width: 470px) {
+    .div-email {
+        width: auto;
+        
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel-photo {
+        padding-top: 40px !important;
+        font-size: 18px !important;
+        
+    }
+}
+
+
+
+@media only screen and (max-width: 1420px){
+	
+	.section-banner-box h1,
+	.title-style-three h1{
+		font-size:60px;
+		line-height:80px;	
+	}
+	
+}
+
+
+@media only screen and (max-width: 1023px){
+	
+	.section-banner-box h1,
+	.title-style-three h1{
+		font-size:42px;
+		line-height:60px;	
+	}
+	
+	
+	
+}
+
+@media only screen and (max-width: 599px){
+	
+	
+	.section-banner-box h1,
+	.title-style-three h1{
+		font-size:32px;
+		line-height:50px;	
+	}
+	
+	
+}
+
+
+
+@media only screen and (max-width: 800px){
+
+    .form-contacto {
+        padding: 70px;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }	
+}
+
+@media only screen and (max-width: 500px){
+
+    .form-contacto {
+        padding: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }	
+}
+
+
+
+

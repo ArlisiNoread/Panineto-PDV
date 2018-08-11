@@ -1,0 +1,75 @@
+
+div.jumbotron.carousel-hero {
+  color:#fff;
+  text-align:center;
+  background-size:cover;
+  background-position:center;
+  padding-top:200px;
+  padding-bottom:102px;
+  margin-bottom:0;
+  height: 200px;
+  width: auto;
+}
+
+div.jumbotron.hero-nature {
+  background-image:url('../../assets/img/slider/1.jpg');
+  font-size: 20px;
+  align-content: center;
+}
+
+div.jumbotron.hero-photography {
+  background-image:url('../../assets/img/slider/30.jpg');
+        font-size: 20px;
+      align-content: center;
+}
+
+div.jumbotron.hero-technology {
+  background-image:url('../../assets/img/slider/15.jpg');
+    font-size: 20px;
+      align-content: center;
+}
+
+div.jumbotron.hero-nature-eventos {
+  background-image:url('../../assets/img/slider/5.jpg');
+  font-size: 20px;
+  align-content: center;
+}
+
+div.jumbotron.hero-photography-eventos {
+  background-image:url('../../assets/img/slider/22.jpg');
+        font-size: 20px;
+      align-content: center;
+}
+
+div.jumbotron.hero-technology-eventos {
+  background-image:url('../../assets/img/slider/33.jpg');
+    font-size: 20px;
+      align-content: center;
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow:0 3px 3px rgba(0,0,0,0.4);
+  color:#fff;
+}
+
+p.hero-subtitle {
+  max-width:600px;
+  margin:25px auto;
+  padding:10px 15px;
+  color:#fff;
+}
+
+.div_icon {
+  height:400px;
+  width:200px;
+  border:px solid;
+  align-self:center;
+}
+
+.div_servicios {
+  height:300px;
+  width:auto;
+  border:2px solid;
+  margin:10%;
+}
+

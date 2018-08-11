@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paninetos</title>
+    <link rel="icon" href="./assets/img/logo/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/header-1.css">
+    <link rel="stylesheet" href="assets/css/header-2.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsividad.css">
+    <link rel="stylesheet" href="assets/css/mouse.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,900" rel="stylesheet"> 
+
+
+
+</head>
+
+<body>
+    <nav id="barraNavegacion" class="navbar sticky-top navbar-light navbar-expand-md" style="background-color: white">
+        <div class="container-fluid">
+            <a class="navbar-item logo lado-izquierdo-boton-1" >
+                <i class="fas fa-shopping-cart icon-navbar" style=""></i>            
+            </a>
+            <a class="navbar-item logo lado-izquierdo-boton-2" href="#">Orden</a>
+            <a class="navbar-brand logo" href="#"><img id="logo-id" class="" src="assets/img/logo/Paninieto.svg"  /></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navcol-1">
+                
+                <ul class="nav navbar-nav">
+                     <li class="nav-item" role="presentation">
+                        <a id="pag-nav-1" class="nav-link active botones-nav" href="./index.html">¿Quiénes Somos?</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a id="pag-nav-2" class="nav-link active botones-nav" href="./eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a id="pag-nav-3" class="nav-link active botones-nav" href="./localizanos.html">Localízanos</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a id="pag-nav-4" class="nav-link active botones-nav" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item red-social" role="presentation">
+                        <a href="https://www.facebook.com/Panineto/">
+                        <i class="icon ion-social-facebook"></i>
+                    </a>
+                    </li>
+                    <li class="nav-item red-social" role="presentation">
+                        <a href="https://twitter.com/panineto">
+                        <i class="icon ion-social-twitter"></i>
+                    </a>
+                    </li>
+                    <li class="nav-item red-social" role="presentation">
+                        <a href="https://www.instagram.com/panineto_/">
+                        <i class="icon ion-social-instagram"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="highlight-clean form-contacto" style="text-align: center">
+            <h1 class="display-4">Pedido en linea</h1>
+
+        <form id="pdv-formato" style="text-align: left; background-color: white">
+            <h3 style="padding: 35px; padding-bottom: 0px">Crepas Saladas</h3>
+            <div class="row justify-content-md-center">
+                    
+                    <!-- UN ELEMENTO DEL PDV -->
+                    <div class="col col-sm-3" style="text-align: right">
+                        <div class="text">
+                            <h5>Chorizo Argentino</h5>
+                        </div>
+                    </div>
+                    <div class="col col-sm-9" style="text-align: left">
+                        <div class="input-group mb-9 div-email" style="width: 90%">
+                            <input id="cantidad-item-0" type="text" class="form-control" placeholder="0" aria-label="Recipient's username" aria-describedby="basic-addon2" readonly>
+                            <div class="input-group-append">
+                                <button id="mas-item-0" class="btn btn-danger" type="button" onclick="addButton('item-0')">+</button>
+                                <button id="menos-item-0" class="btn btn-primary" type="button" onclick="restButton('item-0')">-</button>
+                            </div>
+                            <select id="tamano-item-0" class="form-control" id="sel1" style="width: 60px">
+                              <option>Grande</option>
+                              <option>Mediano</option>
+                            </select>
+                            <select id="paquete-item-0" class="form-control" id="sel1" style="width: 60px">
+                              <option>Combo</option>
+                              <option>Sencillo</option>
+                            </select>
+                            <input id="costo-item-0" type="text" class="form-control" placeholder="$0" aria-label="Recipient's username" aria-describedby="basic-addon2" style="text-align: right" readonly>
+                            <button id="boton-item-0" type="button" class="btn btn-dark">Agregar</button>
+                        </div>
+                    </div>
+                
+                    <!-- UN ELEMENTO DEL PDV -->
+                    <div class="col col-sm-3" style="text-align: right">
+                        <div class="text">
+                            <h5>Jamón Serrano</h5>
+                        </div>
+                    </div>
+                    <div class="col col-sm-9" style="text-align: left">
+                        <div class="input-group mb-9 div-email" style="width: 90%">
+                            <input id="cantidad-item-1" type="text" class="form-control" placeholder="0" aria-label="Recipient's username" aria-describedby="basic-addon2" readonly>
+                            <div class="input-group-append">
+                                <button id="mas-item-1" class="btn btn-danger" type="button" onclick="addButton('item-1')">+</button>
+                                <button id="menos-item-1" class="btn btn-primary" type="button" onclick="restButton('item-1')">-</button>
+                            </div>
+                            <select id="tamano-item-1" class="form-control" id="sel1" style="width: 60px">
+                              <option>Grande</option>
+                              <option>Mediano</option>
+                            </select>
+                            <select id="paquete-item-1" class="form-control" id="sel1" style="width: 60px">
+                              <option>Combo</option>
+                              <option>Sencillo</option>
+                            </select>
+                            <input id="costo-item-1" type="text" class="form-control" placeholder="$0" aria-label="Recipient's username" aria-describedby="basic-addon2" style="text-align: right" readonly>
+                            <button id="boton-item-1" type="button" class="btn btn-dark">Agregar</button>
+                        </div>
+                    </div>
+                
+                    
+
+                
+
+                
+
+             <div class="form-group" style="padding: 40px; text-align: center">
+               <label for="comentarioForm">Comentarios especiales del pedido</label>
+               <textarea type="text" class="form-control" id="emailForm" aria-describedby="comentarioForm" placeholder=""></textarea>
+             </div>
+            <div class="container" style="text-align: center; padding: 20px;">
+                <button type="submit" class="btn btn-primary">Realizar Pedido</button>
+             </div>
+        </form>
+    </div>    
+            
+            
+         
+    
+    
+    
+    <div class="highlight-clean">
+        <div class="section-banner-box" style="background-image: url(assets/img/background/light.jpg)">
+        <!-- COMPONENTES INTERNOS -->
+            <h1>Transition</h1>
+        </div>
+    </div>
+
+
+    <div class="jumbotron">
+            <!-- 
+            **************************************************
+            Form de Email
+            **************************************************
+            -->
+            <h1 class="display-4">Suscríbete a nuestro newsletter</h1>
+            <p class="lead">Recibirás las mejores ofertas y noticias directamente a tu correo.</p>
+            
+            <div class="row justify-content-center align-items-center">
+                    <div class="input-group mb-3 div-email">
+                        <input type="text" class="form-control" placeholder="Ingresa tu Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-danger" type="button">Suscríbete</button>
+                        </div>
+                    </div>
+            </div> 
+    </div>
+    
+    
+
+    <div class="footer-basic" style="padding: 0px;">
+        <!-- 
+        **************************************************
+        Background fijo 2
+        **************************************************
+        -->
+        <div class="section-banner-box" style="background-image: url(assets/img/background/light.jpg)">
+            <!-- COMPONENTES INTERNOS -->
+            <footer class="align-items-center align-content-center">
+            <div class="logo_emailInput" >
+                
+                <img class="ending-logo" src="assets/img/logo/Paninieto.svg"/>
+                
+   
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/Panineto/">
+                    <i class="icon ion-social-facebook"></i>
+                </a>
+                <a href="https://twitter.com/panineto">
+                    <i class="icon ion-social-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/panineto_/">
+                    <i class="icon ion-social-instagram"></i>
+                </a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="./index.html">¿Quienes Somos?</a></li>
+                <li class="list-inline-item"><a href="./eventos.html">Eventos</a></li>
+                <li class="list-inline-item"><a href="./localizanos.html">Localízanos</a></li>
+                <li class="list-inline-item"><a href="./contacto.html">Contacto</a></li>
+                <li class="list-inline-item"><a href="./politica">Politicas de Privacidad</a></li>
+            </ul>
+            <p class="copyright">Panineto © 2018</p>
+            </footer>
+            
+        </div>
+        
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/efectos.js"></script>
+    <script src="./assets/js/redimension.js"></script>
+    <script src="./assets/js/funcionalidadPDV.js"></script>
+
+    
+
+</body>
+
+</html>

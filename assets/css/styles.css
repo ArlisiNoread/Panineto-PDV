@@ -1,0 +1,443 @@
+.logo img{
+    
+    z-index: 10; 
+    width: 130px;
+    position: absolute;
+    left: 45%;
+    top: 4%;
+    padding: 10px;
+    !border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    
+}
+
+
+.circle_for_div {
+  border:2px solid black;
+  margin:5%;
+  margin-top: 2%;
+  height:20%;
+  border-radius:25px;
+  background: black;
+}
+
+.logo_emailInput {
+  text-align:center;
+}
+
+
+
+section-banner-box::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: url(../img/background/dotted-overlay.png) center center repeat;
+    background-color: rgba(0,0,0,0.30);
+}
+
+
+.section-banner-box {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.icono-servicio {
+    margin: 10px;
+    width: 90px;
+    height: 90px;
+    color: white;
+    !padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    
+    
+}
+
+.red-social {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.red-social a {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.botones-nav {
+    margin-right: 0px;
+    width: 150px;
+    text-align: center;
+}
+
+.ending-logo {
+    width: 300px;
+    padding: 19px;
+}
+
+.suscribete-newsletter-texto{
+    margin-top:20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+
+.div-email{
+    width: 450px;  
+}
+
+.lado-izquierdo-boton-1 {
+    
+    background-color: white;
+    background-color: black;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 32px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    z-index: 9;
+    position: fixed;
+    float: left;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: white;
+}
+
+.lado-izquierdo-boton-2 {
+    
+    background-color: white;
+    background-color: black;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    z-index: 9;
+    position: fixed;
+    clear: left;
+    top: 0px;
+    left: 76px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+.icon-navbar {
+    color: white;
+    font-size: 20px;
+    padding-left: 6px;
+    margin-right: 20px;
+        font-family: 'Lato', sans-serif;
+}
+
+.list-inline-item {
+    color: #ffffff;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+
+}
+
+
+.title-style-three{
+	position:relative;
+	text-align:center;
+	margin-bottom:80px;		
+}
+
+.title-style-three h1{
+	font-size:80px;
+	text-transform:uppercase;
+	font-weight:900;
+	color:#ffffff;
+	letter-spacing:1px;
+	line-height:100px;	
+}
+
+
+.title-style-three h1 .lined-text{
+	position:relative;
+	display:inline-block;
+	border-bottom:1px solid #ffffff;	
+}
+
+.title-style-three h1 .bg-text{
+	position:relative;
+	display:inline-block;
+	background:#ff1a1a;
+	padding:0px 10px;
+	margin:0px -5px;	
+}
+
+.title-style-three h1 .lined-text:before{
+	content:'';
+	position:absolute;
+	left:0px;
+	bottom:-3px;
+	width:24px;
+	border-bottom:5px solid #ff1a1a;	
+
+}
+
+.services_section {
+    
+	position:relative;
+	!padding-bottom:20px;	
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.services_section .services{
+	position:relative;
+	padding-bottom:30px;	
+}
+
+.services_section .services .row{
+	position:relative;
+	margin:0px -25px;
+}
+
+.services_section .service-column{
+	position:relative;
+	padding:0px 25px;
+	margin-bottom:50px;	
+}
+
+.services_section .service-column .inner{
+	position:relative;
+	display:block;
+	background:rgba(0,0,0,0.70);
+	color:#777777;
+	padding:50px 30px 70px;
+	border-radius:3px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;	
+}
+
+.services_section .service-column .inner:hover{
+	background:#ffffff;	
+}
+
+.services_section .service-column .icon{
+	position:relative;
+	display:block;
+	font-size:48px;
+	line-height:48px;
+	margin-bottom:15px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.services_section .service-column .inner:hover .icon{
+	color:#ff1a1a;	
+}
+
+.services_section .service-column h3{
+	position:relative;
+	display:block;
+	font-size:20px;
+	font-weight:700;
+	color:#d8d8d8;
+	text-transform:uppercase;
+	margin-bottom:7px;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.services_section .service-column .inner:hover h3{
+	color:#1e1e1e;	
+}
+
+.services_section .service-column .text{
+	position:relative;
+	display:block;
+	font-size:14px;
+	font-weight:500;
+	line-height:1.7em;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.services_section .btn-style-three{
+	padding-left:50px;
+	padding-right:50px;	
+}
+
+.inner{
+    
+    height: 350px;
+    
+}
+
+
+
+/* ---------------------------------------------- /*
+ * Autor: Steve Schoger.
+ * Patterns Backgrounds : http://www.heropatterns.com/
+/* ---------------------------------------------- */
+
+.jumbotron {
+    text-align: center; 
+    margin: 0; 
+    padding: 80px;
+    background-color: #d8d8d8;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%23ffffff' fill-opacity='0.31' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.highlight-clean {
+    background-color: #d8d8d8;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%23ffffff' fill-opacity='0.31' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E");
+    font-family: ""
+}
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+
+#animated{
+    visibility: hidden;
+    
+}
+
+.tracking-in-expand {
+    visibility: true;
+	-webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+/* ---------------------------------------------- /*
+ * 
+ * eventos.html    
+ * 
+/* ---------------------------------------------- */
+
+
+.text-center
+{
+        font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+
+
+
+
+
+/* ---------------------------------------------- /*
+ * 
+ * localizanos.html    
+ * 
+/* ---------------------------------------------- */
+
+.google-maps {
+    position: relative;
+    !padding-bottom: 30%; // This is the aspect ratio
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.google-maps iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 2000px !important;
+    max-height: 1000px !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.highlight-clean{
+        font-family: 'Lato', sans-serif;
+    width: auto;
+    height: auto;
+}
+
+
+
+/* ---------------------------------------------- /*
+ * 
+ * contacto.html    
+ * 
+/* ---------------------------------------------- */
+
+#pdv-formato {
+    margin: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;  
+}
+
+.section-banner-box {
+        font-family: 'Lato', sans-serif; 
+}

@@ -10,7 +10,7 @@ include './phpfiles/clases.php';
 require './PHPMailer-master/src/Exception.php';
 require './PHPMailer-master/src/PHPMailer.php';
 require './PHPMailer-master/src/SMTP.php';
-
+include './phpfiles/funciones.php';
 
 
 
@@ -67,6 +67,7 @@ include './pdv-piezas/navbar.php';
 include './pdv-piezas/ListaDePaninis.php';
 include './pdv-piezas/ListaCrepasDulces.php';
 include './pdv-piezas/ListaCrepasSaladas.php';
+include './pdv-piezas/masInformacionFlotante.php';
 
 include './pdv-piezas/scriptsJS.php';
 include './pdv-piezas/finishBody.php';

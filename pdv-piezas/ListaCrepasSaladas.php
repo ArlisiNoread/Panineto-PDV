@@ -1,17 +1,17 @@
 <!-- Lista de Crepas Dulces -->
 <div class="container-fluid listaArticulos">
-    <a href="#crepasDulces" class="" data-toggle="collapse" style="">
-        <div class="container-fluid headerLista2">
-            <p class="CrepasDulces">Crepas Dulces</p>
+    <a href="#crepasSaladas" class="" data-toggle="collapse" style="">
+        <div class="container-fluid headerLista3">
+            <p class="CrepasSaladas">Crepas Saladas</p>
         </div>
     </a>
-    <div id="crepasDulces" class="collapse">
+    <div id="crepasSaladas" class="collapse">
         <!-- Todos los CrepasDulces-->
 
 
         <?php
         $x = 0;
-        foreach ($crepasDulces as $key) {
+        foreach ($crepasSaladas as $key) {
             ?>
             <!-- Un Item -->            
             <div class="innerdiv" >
@@ -26,7 +26,7 @@
 
                         <!-- Boton Lista Desplegable -->
                         <div class="div-boton-expansor">
-                            <a href="#crepaDulceSelector-<?php echo $x; ?>" class="" data-toggle="collapse">
+                            <a href="#crepaSaladaSelector-<?php echo $x; ?>" class="" data-toggle="collapse">
                                 <div class="container botonExpansor">
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
@@ -36,7 +36,7 @@
                 </div>
 
                 <!-- Opciones Desplegadas -->
-                <div id="crepaDulceSelector-<?php echo $x; ?>" class="collapse">
+                <div id="crepaSaladaSelector-<?php echo $x; ?>" class="collapse">
                     <div class="row">
                         <div class="col col-sm-6 col-modificado1">
                             <p>Sencilla</p>

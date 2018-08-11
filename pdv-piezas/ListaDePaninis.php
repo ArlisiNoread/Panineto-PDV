@@ -45,7 +45,9 @@
                             <p>$<?php echo $key->precioNormal; ?></p>
                         </div>
                         <div class="col col-sm-2 desplazamiento-boton">
-                            <button id="boton-add-<?php echo $x; ?>" type="button" class="btn btn-modificado"><i class="fas fa-plus"></i></button>
+                            <button id="boton-add-panGran-<?php echo $x; ?>" type="button" class="btn btn-modificado" data-button='{"nombre": "<?php echo $key->nombre; ?>", "acompanamiento": "<?php echo $key->acompanante; ?>", "precio": "<?php echo $key->precioNormal; ?>"}'>
+                                <i class="fas fa-plus"></i>
+                            </button>
                         </div>
 
                     </div>
@@ -57,7 +59,9 @@
                             <p>$<?php echo $paninisMedianos[$x]->precioNormal; ?></p>
                         </div>
                         <div class="col col-sm-2 desplazamiento-boton">
-                            <button type="button" class="btn btn-modificado"><i class="fas fa-plus"></i></button>
+                            <button id="boton-add-panMed-<?php echo $x; ?>" type="button" class="btn btn-modificado" data-button='{"nombre": "<?php echo $key->nombre; ?>", "acompanamiento": "<?php echo $key->acompanante; ?>", "precio": "<?php echo $paninisMedianos[$x]->precioNormal; ?>"}'>
+                                <i class="fas fa-plus"></i>
+                            </button>
                         </div>
 
                     </div>

@@ -1,6 +1,5 @@
 <?php
 
-include './phpfiles/funciones.php';
 
 
 $inputFileName = './precios/MenuFinal.xlsx';

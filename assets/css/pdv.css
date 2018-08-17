@@ -32,7 +32,7 @@
 
 .CrepasDulces {
     text-decoration: none;
-    color:white;
+    color:black;
     font-family: 'Maven Pro', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -42,7 +42,7 @@
 
 .CrepasSaladas {
     text-decoration: none;
-    color:black;
+    color:white;
     font-family: 'Maven Pro', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -66,7 +66,6 @@
     height: 30px;
     color: black;
     font-size: 19px;
-    border-bottom: 1px solid #CCC;
 }
 
 .col-modificado1{
@@ -100,9 +99,6 @@
     padding: 2.5vw;
     cursor: pointer;
     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-bottom: 1px solid #CCC;
     
 }
 
@@ -112,9 +108,6 @@
     padding: 2.5vw;
     cursor: pointer;
     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-bottom: 1px solid #CCC;
 }
 
 .headerLista3{
@@ -122,9 +115,6 @@
     padding: 2.5vw;
     cursor: pointer;
     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-bottom: 1px solid #CCC;
 }
 
 .headerLista4{
@@ -132,9 +122,6 @@
     padding: 2.5vw;
     cursor: pointer;
     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-bottom: 1px solid #CCC;
 }
 
 .headerLista5{
@@ -195,9 +182,6 @@
     border-radius: 5%;
     font-family: 'Open Sans', sans-serif;
     padding-top: 50px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-bottom: 1px solid #CCC;
 
 }
 
@@ -225,8 +209,7 @@
 }
 
 .botonMenos{
-    border-radius: 100%;
-    background-color: #2ECC40;
+    color: #2ECC40;
     padding: 5px;
 
 }

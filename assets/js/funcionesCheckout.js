@@ -6,11 +6,11 @@ function addCheckItem(x, nombre, acompanamiento, precio) {
             '" type="button" class="btn">-</button>';
 
     ret = '<div class="row">';
-    ret +=  '<div class="col-10">';
+    ret +=  '<div class="col-10 nombresItems">';
     ret +=      "<h4>" + (x + 1) + ": " + nombre + " ";
     ret +=      acompanamiento + " $" + precio + "</h4>";
     ret +=  '</div>'
-    ret +=  '<div class="col-2">';
+    ret +=  '<div class="col-2 botonMenos">';
     ret +=      '<button id="boton-remove-' + x ;
     ret +=      '" type="button" class="btn">-</button>';
     ret +=  '</div>'

@@ -1,23 +1,15 @@
 $(document).ready(function () {
     $("#checkout").click(function () {
-        //$("#masInformacion-flotante-inner").append( "<p>Test</p>" );
-        //$("#masInformacion-flotante-inner").html("Hello <b>world</b>!");
+
         $("#masInformacion-flotante-inner").empty();
-        //$("#masInformacion-flotante-inner").append(" <p>Test</p>");
 
         var total = 0;
         for (x = 0; x < itemsCarrito.length; x++) {
 
-            $("#masInformacion-flotante-inner").append(
-                    "<h4>" +
-                    (x + 1) + ": " +
-                    itemsCarrito[x].nombre + " " +
-                    itemsCarrito[x].acompanamiento + " $" +
-                    itemsCarrito[x].precio +
-                    "</h4>"
-                    );
+            $("#masInformacion-flotante-inner").append(addCheckItem(
+                    x, itemsCarrito[x].nombre , itemsCarrito[x].acompanamiento, itemsCarrito[x].precio));
 
-            total += itemsCarrito[x].precio;
+            total += Number(itemsCarrito[x].precio);
         }
 
         $("#masInformacion-flotante-inner").append("<h4>" + "Costo total: $" + total + "</h4>");

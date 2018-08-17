@@ -65,8 +65,8 @@ include './pdv-piezas/startBody.php';
 
 include './pdv-piezas/navbar.php';
 include './pdv-piezas/ListaDePaninis.php';
-include './pdv-piezas/ListaCrepasDulces.php';
-include './pdv-piezas/ListaCrepasSaladas.php';
+//include './pdv-piezas/ListaCrepasDulces.php';
+//include './pdv-piezas/ListaCrepasSaladas.php';
 include './pdv-piezas/masInformacionFlotante.php';
 
 include './pdv-piezas/scriptsJS.php';

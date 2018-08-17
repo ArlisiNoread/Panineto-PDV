@@ -32,15 +32,15 @@ $mail->Subject = 'Nuevo Pedido';
 $msg = 'Nuevo Pedido <br>';
 
 //include './pdv-piezas/empy.php';
-echo 'Si estás viendo esto es que funciona <br>';
+//echo 'Si estás viendo esto es que funciona <br>';
 echo var_dump($_POST);
-echo 'Fin <br>';
+//echo 'Fin <br>';
 
 $json = json_decode($_POST['json'], TRUE);
 
 $total = 0;
 $x = 1;
-echo var_dump($json);
+//echo var_dump($json);
 foreach ($json as $key) {
     echo var_dump($key);
     $msg .= $x . ": ";

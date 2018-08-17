@@ -63,12 +63,12 @@ $(document).on('click', '.btn', function () {
     } else if (this.id == "sendEmail") {
 
         console.log("Email Activado")
-        alert("Email Activado");
+        //alert("Email Activado");
 //        $.post('./phpfiles/mailCodeScript.php', itemsCarrito, function () {
 //            
 //            console.log(content.html(response));
 //        });
-        alert(JSON.stringify(itemsCarrito));
+        //alert(JSON.stringify(itemsCarrito));
         request = $.ajax({
             url: "./phpfiles/mailCodeScript.php",
             type: "post",

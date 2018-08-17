@@ -41,11 +41,11 @@ $(":button").click(function () {
 $(document).on('click', '.btn', function () {
     if (this.id.includes("boton-remove")) {
         var split = this.id.split("-");
-        console.log(split);
+        //console.log(split);
         var index = Number(split[split.length - 1]);
         console.log(itemsCarrito.length + " " + index);
         itemsCarrito.splice(index, 1);
-        console.log(itemsCarrito.length + " " + index);
+        //console.log(itemsCarrito.length + " " + index);
 
 
         $("#masInformacion-flotante-inner").empty();
@@ -64,9 +64,26 @@ $(document).on('click', '.btn', function () {
 
         console.log("Email Activado")
         alert("Email Activado");
-        $.post('./phpfiles/mailCodeScript.php', itemsCarrito, function () {
-            content.html(response);
+//        $.post('./phpfiles/mailCodeScript.php', itemsCarrito, function () {
+//            
+//            console.log(content.html(response));
+//        });
+        alert(JSON.stringify(itemsCarrito));
+        request = $.ajax({
+            url: "./phpfiles/mailCodeScript.php",
+            type: "post",
+            data: {"json" : JSON.stringify(itemsCarrito)},
+            success: function (respuesta) {
+                console.log(respuesta);
+            },
+            error: function () {
+                console.log("No se ha podido obtener la información");
+            }
+
         });
+
+
+
     }
 
 });

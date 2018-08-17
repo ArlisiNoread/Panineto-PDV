@@ -1,5 +1,10 @@
 <?php
 
+require_once '../PHPMailer-master/src/Exception.php';
+require_once '../PHPMailer-master/src/PHPMailer.php';
+require_once '../PHPMailer-master/src/SMTP.php';
+date_default_timezone_set('America/Mexico_City');
+
 // Fetching data that is entered by the user
 /*
   $email = $_POST['email'];
@@ -22,26 +27,44 @@ $mail->Password = '4z;_^4T{#TtTtDR3';
 // Email Sending Details
 $mail->addAddress('arlisi.noread@gmail.com');
 $mail->setFrom('php.servicio.arlisi@gmail.com');
-$mail->Subject = 'Prueba de PHP';
+$mail->Subject = 'Nuevo Pedido';
 
-$msg = 'Nuevo Pedido';
+$msg = 'Nuevo Pedido <br>';
 
-
-
-include './pdv-piezas/empy.php';
-echo 'HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+//include './pdv-piezas/empy.php';
+echo 'Si estás viendo esto es que funciona <br>';
 echo var_dump($_POST);
+echo 'Fin <br>';
 
+$json = json_decode($_POST['json'], TRUE);
 
+$total = 0;
+$x = 1;
+echo var_dump($json);
+foreach ($json as $key) {
+    echo var_dump($key);
+    $msg .= $x . ": ";
+    $msg .= key["nombre"] . " ";
+    $msg .= key["acompanamiento"] . " ";
+    $msg .= "$" . key["precio"] . " ";
+    $msg .= "<br>";
+    $total .= (float) key["precio"];
+    $x++;
+}
 
-$mail->msgHTML(msg);
-/*
+$msg .= "<br>" . "Total: $" . $total;
+
+$msg .= "<br>" . var_dump($json);
+$msg .= "<br>" . var_dump($json);
+
+echo $msg;
+
+$mail->msgHTML($msg);
+
 if (!$mail->send()) {
     $error = "Mailer Error: " . $mail->ErrorInfo;
     echo '<p id="para">' . $error . '</p>';
 } else {
     echo '<p id="para">Message sent!</p>';
 }
- * */
- 
 ?>

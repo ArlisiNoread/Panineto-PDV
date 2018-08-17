@@ -45,10 +45,10 @@ $(document).ready(function () {
     });
 });
 
-$('body').on('click', '#sendEmail', function () {
-    console.log("Email Activado")
-    //alert("Email Activado");
-    $.post('./phpfiles/mailCodeScript.php', itemsCarrito, function () {
-        content.html(response);
-    });
-});
+//$('body').on('click', '#sendEmail', function () {
+//    console.log("Email Activado")
+//    //alert("Email Activado");
+//    $.post('./phpfiles/mailCodeScript.php', itemsCarrito, function () {
+//        content.html(response);
+//    });
+//});

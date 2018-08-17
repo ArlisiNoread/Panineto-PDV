@@ -96,7 +96,7 @@
 
 
 .headerLista{
-    background-color: #FFF;
+    background-color: rgb(255, 154, 77);
     padding: 2.5vw;
     cursor: pointer;
     border-radius: 4px;
@@ -108,27 +108,43 @@
 
 
 .headerLista2{
-    background-color: #B2FFFE;
-    border-bottom-color: #DDDDDD;
+    background-color: rgb(255, 251, 134);
     padding: 2.5vw;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-bottom: 1px solid #CCC;
 }
 
 .headerLista3{
-    background-color: #FF756E;
-    border-bottom-color: #DDDDDD;
+    background-color: rgb(124, 178, 82);
     padding: 2.5vw;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-bottom: 1px solid #CCC;
 }
 
 .headerLista4{
-    background-color: #BDACE8;
-    border-bottom-color: #DDDDDD;
+    background-color: rgb(59, 130, 178);
     padding: 2.5vw;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-bottom: 1px solid #CCC;
 }
 
 .headerLista5{
-    background-color: #E8CD8B;
-    border-bottom-color: #DDDDDD;
+    background-color: rgb(190, 209, 255);
     padding: 2.5vw;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-bottom: 1px solid #CCC;
 }
 
 .div-boton-expansor {

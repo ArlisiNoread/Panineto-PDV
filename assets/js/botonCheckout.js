@@ -14,7 +14,7 @@ $(document).ready(function () {
 
         $("#masInformacion-flotante-inner").append("<h4>" + "Costo total: $" + total + "</h4>");
 
-        $("#masInformacion-flotante-inner").append('<button id="sendEmail" type="button" class="btn btn-success">Success</button>');
+        $("#masInformacion-flotante-inner").append('<button id="sendEmail" type="button" class="btn btn-success">Envíar Pedido</button>');
 
 
         $('#masInformacion-flotante').css({

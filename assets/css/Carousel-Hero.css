@@ -50,6 +50,7 @@ div.jumbotron.hero-technology-eventos {
 h1.hero-title, h2.hero-title, h3.hero-title {
   text-shadow:0 3px 3px rgba(0,0,0,0.4);
   color:#fff;
+  font-size: 7vw;
 }
 
 p.hero-subtitle {
@@ -57,6 +58,7 @@ p.hero-subtitle {
   margin:25px auto;
   padding:10px 15px;
   color:#fff;
+  font-size: 1.6vw;
 }
 
 .div_icon {

@@ -160,7 +160,7 @@ section-banner-box::before {
 .list-inline-item {
     color: #ffffff;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+/*    -webkit-text-stroke-color: black;*/
 
 }
 
@@ -172,7 +172,7 @@ section-banner-box::before {
 }
 
 .title-style-three h1{
-    font-size:80px;
+    font-size:60px;
     text-transform:uppercase;
     font-weight:900;
     color:#ffffff;
@@ -240,7 +240,9 @@ section-banner-box::before {
     -moz-transition:all 0.3s ease;
     -webkit-transition:all 0.3s ease;
     -ms-transition:all 0.3s ease;
-    -o-transition:all 0.3s ease;	
+    -o-transition:all 0.3s ease;
+        border-radius: 10px;
+
 }
 
 .services_section .service-column .inner:hover{
@@ -283,10 +285,13 @@ section-banner-box::before {
     color:#1e1e1e;	
 }
 
+.services_section .service-column .inner:hover .text{
+    color: black;	
+}
 .services_section .service-column .text{
     position:relative;
     display:block;
-    font-size:14px;
+    font-size:18px;
     font-weight:500;
     line-height:1.7em;
     transition:all 0.3s ease;
@@ -294,6 +299,7 @@ section-banner-box::before {
     -webkit-transition:all 0.3s ease;
     -ms-transition:all 0.3s ease;
     -o-transition:all 0.3s ease;
+    color: white;
 }
 
 .services_section .btn-style-three{
@@ -446,3 +452,13 @@ section-banner-box::before {
 .section-banner-box {
     font-family: 'Lato', sans-serif; 
 }
+
+.recuadro-negro-transparente{
+    display: inline-block;
+    background-color: rgba(0,0,0,0.7);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 10px;
+    
+}
+

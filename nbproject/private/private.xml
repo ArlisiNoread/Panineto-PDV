@@ -2,29 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/xampp/htdocs/PhpProject1/pdv-piezas/head.php</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/phpfiles/leeExcel.php</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/assets/css/pdv.css</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/assets/js/funcionalidadPDV.js</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/pdv-piezas/ListaDePaninis.php</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/assets/js/efectos.js</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/assets/js/responsividad.js</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/pdv-piezas/navbar.php</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/assets/css/styles.css</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/phpfiles/funciones.php</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/index.html</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/assets/js/jquery.min.js</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/localizanos.html</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/pdv-piezas/scriptsJS.php</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/assets/js/redimension.js</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/pdv-piezas/itemCarrito.php</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/pdv-piezas/masInformacionFlotante.php</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/phpfiles/mailCode.php</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/assets/js/botonCheckout.js</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/assets/js/defineVarGlobal.js</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/assets/js/botonesAdd.js</file>
-            <file>file:/C:/xampp/htdocs/PhpProject1/pdv-loader.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
